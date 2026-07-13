@@ -3,21 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Branch Capital LLC</title>
-    <meta name="description" content="Main Branch Capital LLC — Building the future of marketing technology and education.">
+    <title>Main Branch Capital</title>
+    <meta name="description" content="Main Branch Capital — Advisory by referral.">
     <link rel="icon" type="image/svg+xml" href="/assets/images/badge-navy-rounded.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
     <style>
         :root {
             --deep-navy: #0F2540;
             --ink: #14181E;
             --copper: #D08A3E;
-            --fork-grey-light: #B9BEC6;
-            --fork-grey-dark: #54637A;
+            --fork-grey: #54637A;
             --white: #FFFFFF;
-            --off-white: #F8F9FA;
         }
         
         * {
@@ -37,157 +35,81 @@
             min-height: 100vh;
             display: flex;
             flex-direction: column;
-        }
-        
-        /* Hero Section */
-        .hero {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 4rem 2rem;
+            padding: 2rem;
+        }
+        
+        .container {
             text-align: center;
-            min-height: 80vh;
+            max-width: 480px;
         }
         
         .logo {
-            width: 120px;
-            height: 120px;
-            margin-bottom: 2.5rem;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 3rem;
+            opacity: 0.9;
         }
         
         .wordmark {
-            font-size: clamp(1.5rem, 4vw, 2.5rem);
-            font-weight: 800;
-            letter-spacing: 0.2em;
+            font-size: 1.1rem;
+            font-weight: 600;
+            letter-spacing: 0.35em;
             text-transform: uppercase;
-            margin-bottom: 0.5rem;
+            margin-bottom: 3rem;
             color: var(--white);
         }
         
-        .wordmark .capital {
-            color: var(--copper);
+        .divider {
+            width: 40px;
+            height: 1px;
+            background: var(--copper);
+            margin: 0 auto 3rem;
         }
         
-        .tagline {
+        .statement {
             font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.9;
+            color: var(--fork-grey);
+            margin-bottom: 1rem;
+        }
+        
+        .referral {
+            font-size: 0.85rem;
             font-weight: 500;
             letter-spacing: 0.15em;
             text-transform: uppercase;
-            color: var(--fork-grey-dark);
-            margin-bottom: 3rem;
-        }
-        
-        .description {
-            max-width: 600px;
-            font-size: 1.1rem;
-            line-height: 1.8;
-            color: rgba(255,255,255,0.8);
-            margin-bottom: 3rem;
-        }
-        
-        /* Ventures */
-        .ventures {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-            margin-top: 1rem;
-        }
-        
-        .venture {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            padding: 0.75rem 1.5rem;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            font-weight: 500;
-            color: rgba(255,255,255,0.7);
-            text-decoration: none;
-            transition: all 0.2s ease;
-        }
-        
-        .venture:hover {
-            background: rgba(208, 138, 62, 0.15);
-            border-color: var(--copper);
             color: var(--copper);
+            margin-top: 3rem;
         }
         
-        /* Footer */
         footer {
-            padding: 2rem;
-            text-align: center;
-            border-top: 1px solid rgba(255,255,255,0.1);
-        }
-        
-        .contact {
-            font-size: 0.9rem;
-            color: var(--fork-grey-dark);
-        }
-        
-        .contact a {
-            color: var(--copper);
-            text-decoration: none;
-        }
-        
-        .contact a:hover {
-            text-decoration: underline;
-        }
-        
-        .legal {
-            margin-top: 1rem;
-            font-size: 0.75rem;
-            color: rgba(255,255,255,0.3);
-        }
-        
-        /* Responsive */
-        @media (max-width: 640px) {
-            .hero {
-                padding: 3rem 1.5rem;
-            }
-            
-            .logo {
-                width: 80px;
-                height: 80px;
-            }
-            
-            .ventures {
-                flex-direction: column;
-                align-items: center;
-            }
-            
-            .venture {
-                width: 100%;
-                max-width: 280px;
-                text-align: center;
-            }
+            position: absolute;
+            bottom: 2rem;
+            font-size: 0.7rem;
+            letter-spacing: 0.1em;
+            color: rgba(255,255,255,0.2);
         }
     </style>
 </head>
 <body>
-    <main class="hero">
-        <img src="/assets/images/badge-light-circle.svg" alt="Main Branch Capital" class="logo">
+    <div class="container">
+        <img src="/assets/images/badge-light-circle.svg" alt="" class="logo">
         
-        <h1 class="wordmark">Main Branch <span class="capital">Capital</span></h1>
-        <p class="tagline">Building What's Next</p>
+        <h1 class="wordmark">Main Branch Capital</h1>
         
-        <p class="description">
-            A holding company focused on marketing technology, education, and AI-powered ventures. 
-            We build, invest in, and operate businesses at the intersection of marketing and emerging technology.
+        <div class="divider"></div>
+        
+        <p class="statement">
+            Strategic advisory for marketing technology, 
+            AI transformation, and go-to-market excellence.
         </p>
         
-        <div class="ventures">
-            <a href="https://futureofproductmarketing.com" target="_blank" class="venture">Future of PMM Academy</a>
-            <a href="https://thefullstack.chrisohara.com" target="_blank" class="venture">The Full Stack</a>
-        </div>
-    </main>
+        <p class="referral">By referral only</p>
+    </div>
     
-    <footer>
-        <p class="contact">
-            <a href="mailto:chris@mainbranchcapital.com">chris@mainbranchcapital.com</a>
-        </p>
-        <p class="legal">© 2026 Main Branch Capital LLC. All rights reserved.</p>
-    </footer>
+    <footer>New York</footer>
 </body>
 </html>
