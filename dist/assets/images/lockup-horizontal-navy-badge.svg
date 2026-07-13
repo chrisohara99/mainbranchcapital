@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84">
+
+<rect x="2" y="4" width="76" height="76" rx="18" fill="#0F2540"></rect>
+<g transform="translate(15,22) scale(0.335)">
+  <path d="M24,64 L70,96 L122,104" stroke="#54637A" stroke-width="7" stroke-linecap="round" fill="none"></path>
+  <circle cx="70" cy="96" r="10" fill="#0F2540" stroke="#54637A" stroke-width="6"></circle>
+  <circle cx="122" cy="104" r="8" fill="#0F2540" stroke="#54637A" stroke-width="6"></circle>
+  <path d="M24,64 L70,34 L126,26" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" fill="none"></path>
+  <rect x="8" y="48" width="32" height="32" rx="6" fill="#FFFFFF"></rect>
+  <circle cx="70" cy="34" r="12" fill="#FFFFFF"></circle>
+  <circle cx="126" cy="26" r="14" fill="#D08A3E"></circle>
+</g>
+<text x="96" y="40" font-family="Archivo, sans-serif" font-size="28" font-weight="800" letter-spacing="-0.3" fill="#14181E">Main Branch</text>
+<text x="96" y="66" font-family="Archivo, sans-serif" font-size="13" font-weight="600" letter-spacing="4.4" fill="#0F2540">CAPITAL LLC</text>
+</svg>
